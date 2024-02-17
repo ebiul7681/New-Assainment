@@ -1,62 +1,324 @@
 /* banner section */
 .container {
-    width: 100%; 
-    height: 100vh; 
+    width: 100%;
+    height: 100vh;
     /* background-image: url('./resources/Banner\ Image.png');  */
     background-size: cover;
     background-position: center;
-	color: beige;
-	background-image:url('./resources/Banner\ Image.png');
-	
+    color: beige;
+    background-image: url('./resources/Banner\ Image.png');
+    border-radius: 16px;
 }
-.heading-1{
-	font-size: 15px;
-	text-align: center;
-	padding-top: 40px;
+
+.heading-1 {
+    font-size: 25px;
+    text-align: center;
+    padding-top: 40px;
 }
-.heading-2{
-	font-size: 60px;
-	text-align: center;
+
+.heading-2 {
+    font-size: 60px;
+    text-align: center;
 }
 
 /* discount section */
-.discount{
-	height: 100%;
-	width: 100%;
-	display: flex;
+.discount {
+    height: 100%;
+    width: 100%;
+    display: flex;
     align-items: center;
     text-align: center;
-	margin-bottom: 20px;  
-	flex-direction: column;
+    margin-bottom: 20px;
+    flex-direction: column;
 
 }
-.heading-3{
-	font-size: 50px;
+
+.heading-3 {
+    font-size: 50px;
     color: red;
 }
-.heading-4{
-	color: red;
+
+.heading-4 {
+    color: red;
 }
 
-/* adress section */
-.adress{
-	background-color:beige;
-	height: 100%;
-	width: 100%;
-	display: flex;
+/* address section */
+.address {
+    background-color: #ffe8f4;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    border-radius: 8px;
     align-items: center;
     text-align: center;
-	flex-direction: column;
-	padding-top: 80px;
-	padding-bottom: 80px;
+    flex-direction: column;
+    padding-top: 80px;
+    padding-bottom: 80px;
 }
-.primary-color{
-	color: red;
+
+.primary-color {
+    color: red;
 }
-.join-button{
-	height: 50px;
-	width: 150px;
-	background-color: red;
-	color: white;
-	border-radius: 6px;
+
+.join-button {
+    height: 50px;
+    width: 150px;
+    border: none;
+    background-color: red;
+    color: white;
+    border-radius: 6px;
+}
+
+/* Midnight Party */
+.midnight {
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    background-image: url('./resources/Vectorrr.png');
+    border-radius: 16px;
+}
+
+.midnight-part {
+    padding: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.text {
+    font-family: sans-serif;
+}
+
+.welcome-text {
+    margin: auto;
+    font-size: 70px;
+    font-weight: 600;
+}
+
+.join-now {
+    margin-top: 100px;
+    margin-left: 50px;
+}
+
+/* New Best Offer */
+.offer {
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    justify-content: space-evenly;
+    justify-items: center;
+}
+
+.new-best {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 30px;
+    color: #FF0000;
+    font-family: sans-serif;
+}
+
+.coming-soon {
+    margin: 0;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 60px;
+    color: #070211;
+    font-family: sans-serif;
+}
+
+.dummy-text {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    color: #070211;
+    font-family: sans-serif;
+}
+
+.round-image {
+    padding: 30px;
+    border: 15px solid red;
+    border-radius: 100%;
+}
+
+.right-24 {
+    margin-top: 90px;
+}
+
+.text-24 {
+    margin: 0;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 60px;
+    color: #FF0000;
+    font-family: sans-serif;
+}
+
+/* Holidays Sale 50% */
+.holidays {
+    text-align: center;
+    font-family: sans-serif;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.what-text {
+    margin: 0;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 30px;
+    color: #070211;
+    font-family: sans-serif;
+}
+
+.holidays-red-text {
+    color: #FF0000;
+}
+
+.holidays-text {
+    margin: 0;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 85px;
+    color: #070211;
+    font-family: sans-serif;
+}
+
+/* Our Awesome Portfolio  */
+.gift-text {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 30px;
+    color: #FF0000;
+    font-family: sans-serif;
+}
+
+.portfolio-container {
+    width: 90%;
+    margin: auto;
+    margin-top: 200px;
+}
+
+.portfolio-text {
+    margin: auto;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 60px;
+    color: #070211;
+    font-family: sans-serif;
+}
+
+.grid-1-img {
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.grid-2-img {
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.img-group {
+    width: 424px;
+    height: 450px;
+}
+
+/* Subscribe Newsletter */
+.newsletter {
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    width: 90%;
+    height: 616px;
+    background-color: #fff2f2;
+    border-radius: 16px;
+}
+
+.subscribe {
+    padding: 50px;
+    text-align: center;
+}
+
+.subscribe-newsletter {
+    margin: 0;
+    font-size: 48px;
+    line-height: 60px;
+    font-weight: 900;
+}
+
+.input-button {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.input-field {
+    width: 400px;
+    height: 50px;
+    border: none;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+
+.subscribe-button {
+    color: white;
+    border: none;
+    background-color: red;
+    width: 150px;
+    height: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+/* footer */
+.footer {
+    width: 100%;
+    height: 609px;
+    background-color: #070211;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+.inner-footer {
+    padding: 100px;
+}
+
+.footer-text {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+.right-side-text {
+    margin-top: 15px;
+}
+
+.number {
+    margin: 0;
+}
+
+.website {
+    margin: 0;
+}
+
+.icon-image {
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid #221e2b;
+    border-right: none;
+    border-left: none;
+    margin: 30px 0px;
+}
+
+.social-icon {
+    padding: 50px 0px;
+}
+
+.bottom-text {
+    display: flex;
+    justify-content: space-between;
+    color: white;
 }
